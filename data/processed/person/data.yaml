@@ -1,0 +1,5 @@
+train: "D:/Aarya/Study/Extras/Person_PPE_Detection/data/processed/person/train"
+val: "D:/Aarya/Study/Extras/Person_PPE_Detection/data/processed/person/val"
+
+nc: 10  
+names: ["person", "hard-hat", "gloves", "mask", "glasses", "boots", "vest", "ppe-suit", "ear-protector", "safety-harness"]

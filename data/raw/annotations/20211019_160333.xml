@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>20211019_160333.jpg</filename>
+	<path>C:\Users\user\Desktop\VOCdevkit\VOC2007\Annotations\20211019_160333.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1514</xmin>
+			<ymin>1391</ymin>
+			<xmax>1964</xmax>
+			<ymax>1758</ymax>
+		</bndbox>
+	</object>
+</annotation>
