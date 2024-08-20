@@ -49,6 +49,7 @@ pip install -r requirements.txt
 
 ### Step 1: Prepare the Dataset
 
+NOTE: You can skip this step after cloning the repository as I have already stored the below required files in data/raw path
 Download the dataset from the following [link](https://drive.google.com/file/d/1myGjrJZSWPT6LYOshF9gfikyXaTCBUWb/view?usp=sharing). Extract the contents of `Datasets.zip`, which includes the `images` and `annotations` directories along with `classes.txt`.
 
 ### Step 2: Convert Annotations
@@ -63,6 +64,7 @@ python pascalVOC_to_yolo.py --input_dir path/to/inputdirectory --output_dir path
 
 #### Train Person Detection Model
 
+#### Important Note : Please update the training and validation directories in the data.yaml in both person and ppe folder before training the model
 To train the YOLOv8 model for detecting persons, execute:
 
 ```bash
@@ -84,7 +86,7 @@ Perform inference using both trained models with the following command:
 ```bash
 python inference.py --input_dir path/to/images --output_dir path/to/output --person_model path/to/weights/person_detection/best.pt --ppe_model path/to/weights/ppe_detection/best.pt
 ```
-
+NOTE : I have included a demo construction video. You may add more photos and videos for testing.
 
 ## Report
 
